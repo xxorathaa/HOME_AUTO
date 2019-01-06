@@ -4,7 +4,9 @@
 /bin/
 /build/
 /gradle/
+/src/main/resources/static/php/autoNest.php
 !gradle/wrapper/gradle-wrapper.jar
+
 
 ### STS ###
 .apt_generated

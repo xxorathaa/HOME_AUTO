@@ -1,0 +1,30 @@
+body {
+    background-color: #38c7ff;
+}
+
+img.logo {
+    width: 100px;
+}
+
+table.content {
+    background-color: #FFFFFF;
+    width: 900px;
+}
+
+tr.navbar {
+    background-color: #000000;
+}
+
+tr.navbar td a {
+    color: #FFFFFF;
+    font: arial;
+    text-decoration: none;
+    width: 120px;
+}
+
+tr.navbar td a:hover {
+    background-color: #ebf9ff;
+    color: #38c7ff;
+    font: arial;
+    text-decoration: none;
+}

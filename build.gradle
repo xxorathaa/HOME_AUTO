@@ -33,4 +33,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('org.springframework.security:spring-security-test')
 	implementation('org.projectlombok:lombok')
+    compile("org.springframework.ldap:spring-ldap-core")
+    compile("org.springframework.security:spring-security-ldap")
+    // compile("org.springframework:spring-tx")
+    compile("com.unboundid:unboundid-ldapsdk")
 }

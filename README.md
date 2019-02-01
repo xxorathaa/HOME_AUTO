@@ -1,5 +1,5 @@
 # HOME_AUTO
-SpringBoot home control website
+home control website in react
 
 utilizes NEST API
 autoNest.php will need updated with user and password info for your account

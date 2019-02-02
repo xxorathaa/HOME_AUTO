@@ -1,19 +1,22 @@
-import * as React from 'react';
-import './App.css';
+import * as React from "react";
+import "./assets/css/style.scss";
 
-import logo from './logo.svg';
+// import logo from "./assets/images/logo.PNG";
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <table className="layoutTable">
+          <tbody>
+            <tr className="pageHeader">
+              <td>{/* <img className="logo" src={logo} /> */}</td>
+              <td>
+                <h1>Home Automation Control Panel</h1>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     );
   }

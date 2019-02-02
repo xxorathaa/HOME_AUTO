@@ -3,17 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/bootstrap": "^4.2.1",
-    "@types/react-bootstrap": "^0.32.16",
-    "@types/react-router": "^4.4.3",
-    "@types/react-router-dom": "^4.3.1",
     "bootstrap": "^4.2.1",
     "react": "^16.7.0",
-    "react-bootstrap": "^1.0.0-beta.5",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts-ts": "3.1.0"
+    "react-scripts-ts": "3.1.0",
+    "webpack-dev-server": ">=3.1.11"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -22,10 +19,14 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "@types/bootstrap": "^4.2.1",
     "@types/jest": "^23.3.13",
     "@types/node": "^10.12.21",
     "@types/react": "^16.8.1",
+    "@types/react-bootstrap": "^0.32.16",
     "@types/react-dom": "^16.0.11",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
     "typescript": "^3.3.1"
   }
 }

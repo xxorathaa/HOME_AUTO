@@ -1,0 +1,19 @@
+body {
+  background: #000;
+  table.layoutTable {
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    tr.pageHeader {
+      td {
+        img.logo {
+          width: 100px;
+        }
+        h1 {
+          color: #1a1c81;
+        }
+      }
+    }
+  }
+}
